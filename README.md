@@ -4,7 +4,7 @@
 
 This repository holds code and data to run experiments for the effect of time series aggregation on a battery sizing algorithm for peak shaving.
 
-The input data can be found in `data/consumption_data.mat`. It consists of 281 consumption curves from an industrial manufacturing site. This data set has been published as the HIPE dataset. For more details on the data set, please refer to the [companion website](https://www.energystatusdata.kit.edu/hipe.php), or the [https://doi.org/10.1145/3208903.3210278](paper). Note that the data set contained in this repository covers more days than the original publication, but only provides consumption data from the main terminal.
+The input data can be found in `data/consumption_data.mat`. It consists of 281 consumption curves from an industrial manufacturing site. This data set has been published as the HIPE dataset. For more details on the data set, please refer to the [companion website](https://www.energystatusdata.kit.edu/hipe.php), or the (paper)[https://doi.org/10.1145/3208903.3210278]. Note that the data set contained in this repository covers more days than the original publication, but only provides consumption data from the main terminal.
 
 The experiments are provided as MATLAB code and can be found in `peak-shaving`.
 `peak-shaving/example_peak_shaving_figure.m` is an example for applying our optimization on non-aggregated data.
